@@ -20,14 +20,14 @@
         </p>
         <p>
             {{ form.password.label }}<br>
-            {{ form.password(size=32) }}<br>
+            {{ form.password(size = 32) }}<br>
             {% for error in form.password.errors %}
             <span style="color: blue;">[{{ error }}]</span>
             {% endfor %}
         </p>
         <p>
             {{ form.password_again.label }}<br>
-            {{ form.password_again(size=32) }}<br>
+            {{ form.password_again(size = 32) }}<br>
             {% for error in form.password_again.errors %}
             <span style="color: blue;">[{{ error }}]</span>
             {% endfor %}
