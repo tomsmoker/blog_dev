@@ -56,4 +56,8 @@ class EditProfileForm(FlaskForm):
             if user is not None:
                 raise ValidationError('username taken. roll again.')
 
+class EmptyForm(FlaskForm):
+
+    submit = SubmitField('submit')
+
     
