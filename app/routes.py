@@ -108,7 +108,7 @@ def user(username):
 @login_required
 def edit_profile():
 
-    form = EditProfileForm()
+    form = EditProfileForm(current_user.username)
 
     if form.validate_on_submit():
 
@@ -127,5 +127,5 @@ def edit_profile():
         form.about_me.data = current_user.about_me
 
     return render_template('edit_profile.html', title = 'edit profile', form = form)
-    
+
 
