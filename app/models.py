@@ -74,6 +74,10 @@ class User(UserMixin, db.Model):
 
         return followed.union(own).order_by(Post.timestamp.desc())
 
+@login.user_loader	
+def load_user(id):	
+    return User.query.get(int(id))
+
 class Post(db.Model):
 
     id   = db.Column(db.Integer, primary_key = True)

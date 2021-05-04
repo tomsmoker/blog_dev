@@ -54,4 +54,12 @@
 
     {% endfor %}
 
+    {% if prev_url %}
+    <a href = "{{ prev_url }}"> newer posts </a>
+    {% endif %}
+
+    {% if next_url %}
+    <a href = "{{ next_url }}"> older posts </a>
+    {% endif %}
+
 {% endblock %}

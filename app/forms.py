@@ -60,4 +60,12 @@ class EmptyForm(FlaskForm):
 
     submit = SubmitField('submit')
 
+class PostForm(FlaskForm):
+
+    post = TextAreaField("what's on your mind", validators = [
+        DataRequired(), Length(min = 1, max = 256)
+    ])
+
+    submit = SubmitField('post it')
+
     
