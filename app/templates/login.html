@@ -3,7 +3,7 @@
 
 {% block app_content %}
 
-    <h1> sign in </h1>
+    <h1> {{ _('sign in') }} </h1>
 
     <div class = 'row'>
         <div class = 'col-md-4'>
@@ -11,8 +11,8 @@
         </div>
     </div>
 
-    <p> new here? <a href = "{{ url_for('register') }}"> climb on board </a></p>
+    <p> {{ _('new here?') }} <a href = "{{ url_for('register') }}"> {{ _('climb on board') }} </a></p>
     
-    <p> password forgotten? <a href = "{{ url_for('reset_password_request') }}"> reset it </a>
+    <p> {{ _('password forgotten?') }} <a href = "{{ url_for('reset_password_request') }}"> {{ _('reset it') }} </a>
 
 {% endblock %}

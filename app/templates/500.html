@@ -2,9 +2,9 @@
 
 {% block app_content %}
 
-    <h1> well, we don't know what's happened here.  something unexpected? </h1>
+    <h1> {{ _('well, we don't know what's happened here.  something unexpected?') }} </h1>
 
-    <p> we've told the corporates upstairs, and they'll get on it toot sweet </p>
-    <p><a href="{{ url_for('index') }}"> back </a></p>
+    <p>  {{ 'we've told the corporates upstairs, and they'll get on it toot sweet') }} </p>
+    <p><a href="{{ url_for('index') }}"> {{ _('back') }} </a></p>
 
 {% endblock %}

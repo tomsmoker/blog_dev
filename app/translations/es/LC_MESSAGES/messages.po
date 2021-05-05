@@ -1,0 +1,222 @@
+# Spanish translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-05-05 12:06+0800\n"
+"PO-Revision-Date: 2021-05-05 12:06+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: app/__init__.py:21
+msgid "you need to login to access this page"
+msgstr ""
+
+#: app/email.py:25
+msgid "[generic blog] reset password please"
+msgstr ""
+
+#: app/forms.py:9 app/forms.py:16 app/forms.py:40
+msgid "username"
+msgstr ""
+
+#: app/forms.py:10 app/forms.py:18 app/forms.py:80
+msgid "password"
+msgstr ""
+
+#: app/forms.py:11
+msgid "remember me"
+msgstr ""
+
+#: app/forms.py:12 app/forms.py:22 app/forms.py:43
+msgid "all done"
+msgstr ""
+
+#: app/forms.py:17 app/forms.py:74
+msgid "email"
+msgstr ""
+
+#: app/forms.py:20
+msgid "password again"
+msgstr ""
+
+#: app/forms.py:29
+msgid "username is taken. roll again."
+msgstr ""
+
+#: app/forms.py:36
+msgid "this email is already in our system"
+msgstr ""
+
+#: app/forms.py:41
+msgid "about me"
+msgstr ""
+
+#: app/forms.py:58
+msgid "username taken. roll again."
+msgstr ""
+
+#: app/forms.py:62
+msgid "submit"
+msgstr ""
+
+#: app/forms.py:66
+msgid "what's on your mind"
+msgstr ""
+
+#: app/forms.py:70
+msgid "post it"
+msgstr ""
+
+#: app/forms.py:76
+msgid "reset password please"
+msgstr ""
+
+#: app/forms.py:83
+msgid "password_again"
+msgstr ""
+
+#: app/forms.py:86
+msgid "reset my password please"
+msgstr ""
+
+#: app/routes.py:36
+msgid "well, you did it.  people can now learn what you have to say"
+msgstr ""
+
+#: app/routes.py:47 app/templates/base.html:30
+msgid "home"
+msgstr ""
+
+#: app/routes.py:62
+msgid "Yeah, no.  Either the username or the password is busted."
+msgstr ""
+
+#: app/routes.py:74
+msgid "sign in"
+msgstr ""
+
+#: app/routes.py:99
+msgid "welcome"
+msgstr ""
+
+#: app/routes.py:103 app/templates/register.html:6
+msgid "register"
+msgstr ""
+
+#: app/routes.py:135
+msgid "done. changed."
+msgstr ""
+
+#: app/routes.py:144 app/templates/edit_profile.html:6
+msgid "edit profile"
+msgstr ""
+
+#: app/routes.py:158 app/routes.py:192
+msgid "no one here by the name of %(username)"
+msgstr ""
+
+#: app/routes.py:164
+msgid "nice try champ, you can't follow yourself"
+msgstr ""
+
+#: app/routes.py:172
+msgid "well, you're now folowing %(username)"
+msgstr ""
+
+#: app/routes.py:198
+msgid "as much as you may want to you can't unfollow yourself"
+msgstr ""
+
+#: app/routes.py:206
+msgid "you've burned the bridge with {}."
+msgstr ""
+
+#: app/routes.py:225 app/templates/base.html:31
+msgid "explore"
+msgstr ""
+
+#: app/routes.py:242
+msgid "email sent.  follow what it says"
+msgstr ""
+
+#: app/routes.py:246 app/templates/reset_password_request.html:6
+msgid "reset password"
+msgstr ""
+
+#: app/routes.py:267
+msgid "password definitely changed"
+msgstr ""
+
+#: app/templates/404.html:4
+msgid "oh dear! no file found"
+msgstr ""
+
+#: app/templates/404.html:5
+msgid "back"
+msgstr ""
+
+#: app/templates/base.html:12
+msgid "blog (generic)"
+msgstr ""
+
+#: app/templates/base.html:21
+msgid "toggle the nav"
+msgstr ""
+
+#: app/templates/base.html:35
+msgid "login"
+msgstr ""
+
+#: app/templates/base.html:37
+msgid "profile"
+msgstr ""
+
+#: app/templates/base.html:38
+msgid "logout"
+msgstr ""
+
+#: app/templates/reset_password.html:6
+msgid "reset your password"
+msgstr ""
+
+#: app/templates/user.html:10
+msgid "user"
+msgstr ""
+
+#: app/templates/user.html:17
+msgid "last seen"
+msgstr ""
+
+#: app/templates/user.html:20
+#, python-format
+msgid "%(count)d followers"
+msgstr ""
+
+#: app/templates/user.html:20
+#, python-format
+msgid "%(count)d following"
+msgstr ""
+
+#: app/templates/user.html:23
+msgid "edit your profile"
+msgstr ""
+
+#: app/templates/user.html:58
+msgid "newer posts"
+msgstr ""
+
+#: app/templates/user.html:62
+msgid "older_posts"
+msgstr ""
+
