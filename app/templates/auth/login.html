@@ -11,8 +11,8 @@
         </div>
     </div>
 
-    <p> {{ _('new here?') }} <a href = "{{ url_for('register') }}"> {{ _('climb on board') }} </a></p>
+    <p> {{ _('new here?') }} <a href = "{{ url_for('auth.register') }}"> {{ _('climb on board') }} </a></p>
     
-    <p> {{ _('password forgotten?') }} <a href = "{{ url_for('reset_password_request') }}"> {{ _('reset it') }} </a>
+    <p> {{ _('password forgotten?') }} <a href = "{{ url_for('auth.reset_password_request') }}"> {{ _('reset it') }} </a>
 
 {% endblock %}
